@@ -1,4 +1,6 @@
-retail\_ecommerce\_analysis
+## retail\_ecommerce\_analysis
+
+
 Overview
 ---
 
@@ -15,6 +17,7 @@ Python 3.8, pandas, numpy, matplotlib
 ## Methods
 
 Two dataframes are maintained throughout the pipeline: df\_full, which includes all rows from the original dataset being a clone, and was used for a monthly revenue and geographic-trends chart. This was used alongside df\_clean, which was filtered to rows with a valid customer ID, valid quantity, and valid, positive revenue, which was applied to the RFM calculations.
+
 
 
 |Recency|Days since the last purchase from a specific customer ID|Lower is better|
